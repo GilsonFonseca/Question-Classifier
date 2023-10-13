@@ -1,0 +1,30 @@
+{
+  "id": "question-classifier",
+  "name": "Question Classifier",
+  "description": "Receives questions then classify them",
+  "author": "Gilson Fonseca",
+  "email": "gilson@ice.ufjf.br",
+  "input_queue": "question-classifier-in",
+  "output_queue": "question-classifier-out",
+  "input": [
+    {
+      "id": "input-file",
+      "link": true,
+      "type": "file",
+      "required": true
+    }
+  ],
+  "output": [
+    {
+      "id": "qc-image",
+      "link": true,
+      "type": "file",
+      "accept": ["image/*"]
+    },
+    {
+      "id": "qc-text",
+      "link": true,
+      "type": "file"
+    }
+  ]
+}

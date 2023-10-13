@@ -1,0 +1,8 @@
+nltk
+tensorflow
+scikit-learn
+pandas
+numpy
+openpyxl
+git+https://github.com/maxjf1/files-ms-client-python#egg=files-ms-client-python
+git+https://github.com/easytopic-project/client_python_m2p
